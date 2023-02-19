@@ -14,7 +14,7 @@ const MessageParser = ({ children, actions }) => {
       console.log("help");
     }
 
-    else if(message.includes('contact')){
+    else if(message.includes('contact') || message.includes('Contact') || message.includes('contact') || message.includes('contact') {
       actions.handleContact();
       console.log("contact_options");
     }
