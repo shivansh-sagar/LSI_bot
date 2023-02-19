@@ -66,3 +66,15 @@ margin-left:20px ;
   color: #ffffff;
   text-decoration: none;
 }
+
+::-webkit-scrollbar{
+  width: 0.4em;
+}
+::-webkit-scrollbar-track{
+  background: rgb(203, 203, 203);
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ff9100;
+  border-radius: 100vw;
+}
