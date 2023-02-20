@@ -2,6 +2,7 @@ import React from 'react';
 
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
+    message = message.toLowerCase();
     console.log(message);
     
     if (message.includes('hello') || message.includes('hi') || message.includes('hey') || message.includes('hiii') || message.includes('hii') || message.includes('hiiii') || message.includes('hiiiii'))  {
